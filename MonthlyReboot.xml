@@ -35,7 +35,7 @@
   </Triggers>
   <Principals>
     <Principal id="Author">
-      <UserId>DomainName\mayernetworks</UserId>
+      <UserId>SID</UserId>
       <LogonType>Password</LogonType>
       <RunLevel>HighestAvailable</RunLevel>
     </Principal>
