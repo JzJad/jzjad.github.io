@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
-    <Date>2019-06-27T09:18:50.3503156</Date>
-    <Author>JBristow</Author>
-    <URI>\Monthly Reboot</URI>
+    <Date>2019-06-27T11:23:36.8529837</Date>
+    <Author>Mayernetworks</Author>
+    <URI>\Mayernetworks\Monthly Reboot</URI>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
-      <StartBoundary>2019-06-27T09:17:43</StartBoundary>
+      <StartBoundary>2019-06-27T18:00:00</StartBoundary>
       <Enabled>true</Enabled>
       <ScheduleByMonthDayOfWeek>
         <Weeks>
           <Week>Last</Week>
         </Weeks>
         <DaysOfWeek>
-          <Sunday />
+          <Saturday />
         </DaysOfWeek>
         <Months>
           <January />
@@ -35,7 +35,6 @@
   </Triggers>
   <Principals>
     <Principal id="Author">
-      <UserId>SID</UserId>
       <LogonType>Password</LogonType>
       <RunLevel>HighestAvailable</RunLevel>
     </Principal>
